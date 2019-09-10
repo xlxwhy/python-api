@@ -10,7 +10,7 @@ url_item = url + '/mat/item'
 # 测试: ItemApi.create()
 ##########################################################################
 
-title={
+title = {
     "num": "No.",
     "method": "method",
     "url": "URL",
@@ -21,7 +21,7 @@ title={
 }
 
 TestReport.report(title)
-cases=[]
+cases = []
 # cases.extend(ItemCreateCaseLibrary.getAllCases())
 # cases.extend(ItemGetCaseLibrary.getAllCases())
 # cases.extend(ItemDeleteCaseLibrary.getAllCases())
@@ -30,5 +30,3 @@ cases.extend(VehicleBaseCaseLibrary.getAllCases())
 
 TestReport.report(title)
 TestReport.run(cases, needReport=True, reportData=False, needTotal=True)
-
-

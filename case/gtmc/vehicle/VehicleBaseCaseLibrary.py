@@ -13,7 +13,7 @@ __version = "v1.0"
 
 
 def getUrl(path, pa=None, pb=None, pc=None, pd=None):
-    url=__host + '/api/' + __version + path
+    url = __host + '/api/' + __version + path
     url = url + pa if pa else url
     url = url + pb if pb else url
     url = url + pc if pc else url
@@ -57,7 +57,6 @@ def getAllCases():
     eid = TestCase.getValue(JSON.decode(case['data']), 'body')
     entity = case['param']['body']
     ignore = eid is None
-
 
     ################################################################################################################
     entity = {

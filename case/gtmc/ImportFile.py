@@ -1,6 +1,5 @@
 import xlrd
 
-
 # 设置路径
 path = 'f:/zfile/485B规格配置表.xls'
 # 打开execl
@@ -29,9 +28,9 @@ for i in range(rowNum):
 # 输出所有单元格的内容
 for i in range(rowNum):
     for j in range(colNum):
-        v=str(list[i][j]);
-        v=v.replace("\r","")
-        v=v.replace("\n","")
+        v = str(list[i][j]);
+        v = v.replace("\r", "")
+        v = v.replace("\n", "")
         print(v, '\t\t', end="")
     print()
 

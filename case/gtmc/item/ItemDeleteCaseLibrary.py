@@ -8,7 +8,6 @@ from library.xpy import TestReport
 from case import CaseLibrary
 import Const
 
-
 __host = 'http://localhost:8054'
 __version = "v1.0"
 __path = "/mat/item"

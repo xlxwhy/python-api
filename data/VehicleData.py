@@ -1,8 +1,6 @@
-
-
 ## 车系数据来源，需要手工维护
 ## https://www.gac-toyota.com.cn/js/newprovincecitydealer/data/modleData.js
-VEHICLE_DATA_SERIES= [
+VEHICLE_DATA_SERIES = [
     {
         "value": "004036",
         "name": "全新换代雷凌",
@@ -82,412 +80,410 @@ VEHICLE_DATA_SERIES= [
 ## https://www.gac-toyota.com.cn/js/newprovincecitydealer/data/seriesData.js
 
 VEHICLE_DATA_VERSION = [
-  {
-      "value": "00403702",
-      "name": "2.5L双擎豪华版",
-      "parent": "004037"
-  },
-  {
-      "value": "00403701",
-      "name": "2.5L 双擎尊贵版",
-      "parent": "004037"
-  },
-  {
-      "value": "00402808",
-      "name": "2.0T四驱至尊版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402807",
-      "name": "2.0T四驱尊贵版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402806",
-      "name": "2.0T四驱豪华版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402805",
-      "name": "2.0T四驱精英版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402804",
-      "name": "2.0T两驱尊贵版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402803",
-      "name": "2.0T两驱豪华版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402802",
-      "name": "2.0T两驱精英版",
-      "parent": "004028"
-  },
-  {
-      "value": "00402801",
-      "name": "2.0T两驱精英版（五座）",
-      "parent": "004028"
-  },
-  {
-      "value": "00402715",
-      "name": "酷跑领先天窗版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402714",
-      "name": "酷越领先天窗版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402713",
-      "name": "领先天窗版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402712",
-      "name": "豪华天窗版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402711",
-      "name": "旗舰天窗版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402708",
-      "name": "精英版",
-      "parent": "004027"
-  },
-  {
-      "value": "00402707",
-      "name": "领先版",
-      "parent": "004027"
-  },
-  {
-      "value": "00403502",
-      "name": "2.5HQ旗舰版",
-      "parent": "004035"
-  },
-  {
-      "value": "00403501",
-      "name": "2.5HG豪华版",
-      "parent": "004035"
-  },
     {
-      "value": "00403503",
-      "name": "2.5HS锋尚版",
-      "parent": "004035"
-  },
-  {
-      "value": "00403402",
-      "name": "2.5S锋尚版",
-      "parent": "004034"
-  },
-  {
-      "value": "00403401",
-      "name": "2.0S锋尚版",
-      "parent": "004034"
-  },
-  {
-      "value": "00403305",
-      "name": "2.5Q旗舰版",
-      "parent": "004033"
-  },
-  {
-      "value": "00403304",
-      "name": "2.5G豪华版",
-      "parent": "004033"
-  },
-  {
-      "value": "00403303",
-      "name": "2.0G豪华版",
-      "parent": "004033"
-  },
-  {
-      "value": "00403302",
-      "name": "2.0E领先版",
-      "parent": "004033"
-  },
-  {
-      "value": "00403301",
-      "name": "2.0E精英版",
-      "parent": "004033"
-  },
-  {
-      "value": "00402305",
-      "name": "1.8HGS-V尊贵版",
-      "parent": "004023"
-  },
-  {
-      "value": "00402304",
-      "name": "1.8HV豪华版(E-CVT)",
-      "parent": "004023"
-  },
-  {
-      "value": "00402303",
-      "name": "1.8HGS-L领先版(E-CVT)",
-      "parent": "004023"
-  },
-  {
-      "value": "00402302",
-      "name": "1.8HGS精英天窗版(E-CVT)",
-      "parent": "004023"
-  },
-  {
-      "value": "00402301",
-      "name": "1.8HGS精英版(E-CVT)",
-      "parent": "004023"
-  },
-  {
-      "value": "00402210",
-      "name": "185TG-V尊贵版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402208",
-      "name": "1.8V豪华版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402207",
-      "name": "1.8GS-L领先版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402206",
-      "name": "1.8GS精英版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402205",
-      "name": "185T领先版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402204",
-      "name": "185T精英版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402203",
-      "name": "185T精英版(MT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402202",
-      "name": "185T新锐版(CVT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402201",
-      "name": "185T新锐版(MT)",
-      "parent": "004022"
-  },
-  {
-      "value": "00402109",
-      "name": "1.5GS锐动版(CVT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402108",
-      "name": "1.5G炫动天窗版(CVT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402107",
-      "name": "1.5G炫动版(CVT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402106",
-      "name": "1.5G炫动版(MT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402105",
-      "name": "1.5E魅动版(CVT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402104",
-      "name": "1.5E魅动版(MT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402103",
-      "name": "1.3E魅动版(CVT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402102",
-      "name": "1.3E魅动版(MT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402101",
-      "name": "1.3灵动版(MT)",
-      "parent": "004021"
-  },
-  {
-      "value": "00402010",
-      "name": "1.5G劲速天窗升级版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402009",
-      "name": "1.5E劲速升级版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402008",
-      "name": "1.5GS锐动版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402007",
-      "name": "1.5G炫动天窗版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402006",
-      "name": "1.5G炫动版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402005",
-      "name": "1.5G炫动版(MT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402004",
-      "name": "1.5E魅动版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402003",
-      "name": "1.3E魅动版(CVT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402002",
-      "name": "1.3E魅动版(MT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00402001",
-      "name": "1.3灵动版(MT)",
-      "parent": "004020"
-  },
-  {
-      "value": "00400637",
-      "name": "3.5L尊贵版",
-      "parent": "004006"
-  },
-  {
-      "value": "00400636",
-      "name": "3.5L豪华版",
-      "parent": "004006"
-  },
-  {
-      "value": "00402901",
-      "name": "领先版",
-      "parent": "004029"
-  },
-  {
-      "value": "00402902",
-      "name": "豪华版",
-      "parent": "004029"
-  }
-  ,
-  {
-      "value": "00403104",
-      "name": "1.8PH V　豪华版",
-      "parent": "004031"
-  }
-  ,
-  {
-      "value": "00403103",
-      "name": "1.8PH GS　精英天窗版",
-      "parent": "004031"
-  }
-  ,
-  {
-      "value": "00403102",
-      "name": "1.8PH GS　精英风尚版",
-      "parent": "004031"
-  },
-  {
-      "value": "00403101",
-      "name": "1.8PH GS　精英版",
-      "parent": "004031"
-  } ,
-  {
-      "value": "00403601",
-      "name": "185T 进取版",
-      "parent": "004036"
-  }
-  ,
-   {
-      "value": "00403602",
-      "name": "185T 豪华版",
-      "parent": "004036"
-  },
-   {
-      "value": "00403603",
-      "name": "185T 运动版",
-      "parent": "004036"
-  }
-  ,
-   {
-      "value": "00403604",
-      "name": "185T 科技版",
-      "parent": "004036"
-  }
-  ,
-   {
-      "value": "00403605",
-      "name": "185T 尊享版",
-      "parent": "004036"
-  },
-   {
-      "value": "00403801",
-      "name": "双擎进取版",
-      "parent": "004038"
-  }
-  ,
-   {
-      "value": "00403802",
-      "name": "双擎豪华版",
-      "parent": "004038"
-  },
-   {
-      "value": "00403803",
-      "name": "双擎运动版",
-      "parent": "004038"
-  }
-  ,
-   {
-      "value": "00403804",
-      "name": "双擎科技版",
-      "parent": "004038"
-  }
-  ,
-   {
-      "value": "00403805",
-      "name": "双擎尊享版",
-      "parent": "004038"
-  }
+        "value": "00403702",
+        "name": "2.5L双擎豪华版",
+        "parent": "004037"
+    },
+    {
+        "value": "00403701",
+        "name": "2.5L 双擎尊贵版",
+        "parent": "004037"
+    },
+    {
+        "value": "00402808",
+        "name": "2.0T四驱至尊版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402807",
+        "name": "2.0T四驱尊贵版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402806",
+        "name": "2.0T四驱豪华版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402805",
+        "name": "2.0T四驱精英版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402804",
+        "name": "2.0T两驱尊贵版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402803",
+        "name": "2.0T两驱豪华版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402802",
+        "name": "2.0T两驱精英版",
+        "parent": "004028"
+    },
+    {
+        "value": "00402801",
+        "name": "2.0T两驱精英版（五座）",
+        "parent": "004028"
+    },
+    {
+        "value": "00402715",
+        "name": "酷跑领先天窗版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402714",
+        "name": "酷越领先天窗版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402713",
+        "name": "领先天窗版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402712",
+        "name": "豪华天窗版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402711",
+        "name": "旗舰天窗版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402708",
+        "name": "精英版",
+        "parent": "004027"
+    },
+    {
+        "value": "00402707",
+        "name": "领先版",
+        "parent": "004027"
+    },
+    {
+        "value": "00403502",
+        "name": "2.5HQ旗舰版",
+        "parent": "004035"
+    },
+    {
+        "value": "00403501",
+        "name": "2.5HG豪华版",
+        "parent": "004035"
+    },
+    {
+        "value": "00403503",
+        "name": "2.5HS锋尚版",
+        "parent": "004035"
+    },
+    {
+        "value": "00403402",
+        "name": "2.5S锋尚版",
+        "parent": "004034"
+    },
+    {
+        "value": "00403401",
+        "name": "2.0S锋尚版",
+        "parent": "004034"
+    },
+    {
+        "value": "00403305",
+        "name": "2.5Q旗舰版",
+        "parent": "004033"
+    },
+    {
+        "value": "00403304",
+        "name": "2.5G豪华版",
+        "parent": "004033"
+    },
+    {
+        "value": "00403303",
+        "name": "2.0G豪华版",
+        "parent": "004033"
+    },
+    {
+        "value": "00403302",
+        "name": "2.0E领先版",
+        "parent": "004033"
+    },
+    {
+        "value": "00403301",
+        "name": "2.0E精英版",
+        "parent": "004033"
+    },
+    {
+        "value": "00402305",
+        "name": "1.8HGS-V尊贵版",
+        "parent": "004023"
+    },
+    {
+        "value": "00402304",
+        "name": "1.8HV豪华版(E-CVT)",
+        "parent": "004023"
+    },
+    {
+        "value": "00402303",
+        "name": "1.8HGS-L领先版(E-CVT)",
+        "parent": "004023"
+    },
+    {
+        "value": "00402302",
+        "name": "1.8HGS精英天窗版(E-CVT)",
+        "parent": "004023"
+    },
+    {
+        "value": "00402301",
+        "name": "1.8HGS精英版(E-CVT)",
+        "parent": "004023"
+    },
+    {
+        "value": "00402210",
+        "name": "185TG-V尊贵版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402208",
+        "name": "1.8V豪华版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402207",
+        "name": "1.8GS-L领先版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402206",
+        "name": "1.8GS精英版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402205",
+        "name": "185T领先版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402204",
+        "name": "185T精英版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402203",
+        "name": "185T精英版(MT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402202",
+        "name": "185T新锐版(CVT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402201",
+        "name": "185T新锐版(MT)",
+        "parent": "004022"
+    },
+    {
+        "value": "00402109",
+        "name": "1.5GS锐动版(CVT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402108",
+        "name": "1.5G炫动天窗版(CVT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402107",
+        "name": "1.5G炫动版(CVT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402106",
+        "name": "1.5G炫动版(MT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402105",
+        "name": "1.5E魅动版(CVT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402104",
+        "name": "1.5E魅动版(MT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402103",
+        "name": "1.3E魅动版(CVT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402102",
+        "name": "1.3E魅动版(MT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402101",
+        "name": "1.3灵动版(MT)",
+        "parent": "004021"
+    },
+    {
+        "value": "00402010",
+        "name": "1.5G劲速天窗升级版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402009",
+        "name": "1.5E劲速升级版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402008",
+        "name": "1.5GS锐动版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402007",
+        "name": "1.5G炫动天窗版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402006",
+        "name": "1.5G炫动版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402005",
+        "name": "1.5G炫动版(MT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402004",
+        "name": "1.5E魅动版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402003",
+        "name": "1.3E魅动版(CVT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402002",
+        "name": "1.3E魅动版(MT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00402001",
+        "name": "1.3灵动版(MT)",
+        "parent": "004020"
+    },
+    {
+        "value": "00400637",
+        "name": "3.5L尊贵版",
+        "parent": "004006"
+    },
+    {
+        "value": "00400636",
+        "name": "3.5L豪华版",
+        "parent": "004006"
+    },
+    {
+        "value": "00402901",
+        "name": "领先版",
+        "parent": "004029"
+    },
+    {
+        "value": "00402902",
+        "name": "豪华版",
+        "parent": "004029"
+    }
+    ,
+    {
+        "value": "00403104",
+        "name": "1.8PH V　豪华版",
+        "parent": "004031"
+    }
+    ,
+    {
+        "value": "00403103",
+        "name": "1.8PH GS　精英天窗版",
+        "parent": "004031"
+    }
+    ,
+    {
+        "value": "00403102",
+        "name": "1.8PH GS　精英风尚版",
+        "parent": "004031"
+    },
+    {
+        "value": "00403101",
+        "name": "1.8PH GS　精英版",
+        "parent": "004031"
+    },
+    {
+        "value": "00403601",
+        "name": "185T 进取版",
+        "parent": "004036"
+    }
+    ,
+    {
+        "value": "00403602",
+        "name": "185T 豪华版",
+        "parent": "004036"
+    },
+    {
+        "value": "00403603",
+        "name": "185T 运动版",
+        "parent": "004036"
+    }
+    ,
+    {
+        "value": "00403604",
+        "name": "185T 科技版",
+        "parent": "004036"
+    }
+    ,
+    {
+        "value": "00403605",
+        "name": "185T 尊享版",
+        "parent": "004036"
+    },
+    {
+        "value": "00403801",
+        "name": "双擎进取版",
+        "parent": "004038"
+    }
+    ,
+    {
+        "value": "00403802",
+        "name": "双擎豪华版",
+        "parent": "004038"
+    },
+    {
+        "value": "00403803",
+        "name": "双擎运动版",
+        "parent": "004038"
+    }
+    ,
+    {
+        "value": "00403804",
+        "name": "双擎科技版",
+        "parent": "004038"
+    }
+    ,
+    {
+        "value": "00403805",
+        "name": "双擎尊享版",
+        "parent": "004038"
+    }
 ]
 
-
-
-## // 雷凌、雷凌双擎
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2019/newLevinTable?module=jpb
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2019/newLevinTables/js/hevmap.js
+# // 雷凌、雷凌双擎
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2019/newLevinTable?module=jpb
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2019/newLevinTables/js/hevmap.js
 VEHICLE_LL_CONFIG = {
     "": {
         "官方指导价": ["11.58万元", "12.98万元", "13.38万元", "13.98万元", "14.18万元", "13.38万元", "14.28万元", "14.68万元", "15.08万元", "15.28万元"]
@@ -621,11 +617,11 @@ VEHICLE_LL_CONFIG = {
         "车载蓝牙": ["-", "●", "●", "●", "●", "-", "●", "●", "●", "●"]
     }
 }
-VEHICLE_LL_MODEL = ['185T 进取版', '185T 豪华版', '185T 运动版', '185T 科技版', '185T 尊享版', '双擎进取版', '双擎豪华版', '双擎运动版', '双擎科技版', '双擎尊享版'];
+VEHICLE_LL_MODEL = ['185T 进取版', '185T 豪华版', '185T 运动版', '185T 科技版', '185T 尊享版', '双擎进取版', '双擎豪华版', '双擎运动版', '双擎科技版', '双擎尊享版']
 
-## // 雷凌双擎E+
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18hh
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2019/levinphevtable/js/data.js
+# // 雷凌双擎E+
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2019/levinphevTable?module=18hh
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2019/levinphevtable/js/data.js
 
 VEHICLE_LLE_CONFIG = {
     "": {
@@ -746,11 +742,11 @@ VEHICLE_LLE_CONFIG = {
         "充电时间预约功能": ["●", "●", "●", "●"]
     }
 }
-VEHICLE_LLE_MODEL = ["1.8PH GS 精英版", "1.8PH GS 精英风尚版", "1.8PH GS 精英天窗版", "1.8PH V 豪华版"];
+VEHICLE_LLE_MODEL = ["1.8PH GS 精英版", "1.8PH GS 精英风尚版", "1.8PH GS 精英天窗版", "1.8PH V 豪华版"]
 
-## // C-HR
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/CHRTable?model=qjbtc
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2018/C-HRTable/js/hevmap.js
+# // C-HR
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/CHRTable?model=qjbtc
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2018/C-HRTable/js/hevmap.js
 VEHICLE_CHR_CONFIG = {
     "": {
         "官方指导价": ["17.88万元", "16.58万元", "15.18万元", "15.58万元", "14.18万元", "15.98万元", "15.98万元"]
@@ -864,11 +860,11 @@ VEHICLE_CHR_CONFIG = {
         "AUX+USB接口": ["●", "●", "●", "●", "●", "●", "●"]
     }
 }
-VEHICLE_CHR_MODEL = ["旗舰天窗版", "豪华天窗版", "领先版", "领先天窗版", "精英版", "酷越领先天窗版", "酷跑领先天窗版"];
+VEHICLE_CHR_MODEL = ["旗舰天窗版", "豪华天窗版", "领先版", "领先天窗版", "精英版", "酷越领先天窗版", "酷跑领先天窗版"]
 
-## // 汉兰达
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/2018newhighlander/models?model=2.0fex
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2018/HighlanderMinisite/newHighlander/js/mdata.js
+# // 汉兰达
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/2018newhighlander/models?model=2.0fex
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2018/HighlanderMinisite/newHighlander/js/mdata.js
 
 VEHICLE_HLD_CONFIG = {
     "": {
@@ -988,11 +984,11 @@ VEHICLE_HLD_CONFIG = {
     }
 }
 
-VEHICLE_HLD_MODEL = ['2.0T 两驱精英版（五座）', '2.0T 两驱精英版', '2.0T 两驱豪华版', '2.0T 两驱尊贵版', '2.0T 四驱精英版', '2.0T 四驱豪华版', '2.0T 四驱尊贵版', '2.0T 四驱至尊版'];
+VEHICLE_HLD_MODEL = ['2.0T 两驱精英版（五座）', '2.0T 两驱精英版', '2.0T 两驱豪华版', '2.0T 两驱尊贵版', '2.0T 四驱精英版', '2.0T 四驱豪华版', '2.0T 四驱尊贵版', '2.0T 四驱至尊版']
 
-## // 凯美瑞+运动+双擎
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2017/camry/js/map/hevmap.js
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2017/camryxle/config/?model=2.5q&ly=xle
+# // 凯美瑞+运动+双擎
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2017/camry/js/map/hevmap.js
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2017/camryxle/config/?model=2.5q&ly=xle
 
 VEHICLE_KMR_CONFIG = {
     "": {
@@ -1191,11 +1187,11 @@ VEHICLE_KMR_CONFIG = {
     }
 }
 
-VEHICLE_KMR_MODEL = ["2.0E 精英版", "2.0E 领先版", "2.0G 豪华版", "2.5G 豪华版", "2.5Q 旗舰版", "2.0S 锋尚版", "2.5S 锋尚版", "2.5HG 豪华版", "2.5HQ 旗舰版", "2.5HS 锋尚版"];
+VEHICLE_KMR_MODEL = ["2.0E 精英版", "2.0E 领先版", "2.0G 豪华版", "2.5G 豪华版", "2.5Q 旗舰版", "2.0S 锋尚版", "2.5S 锋尚版", "2.5HG 豪华版", "2.5HQ 旗舰版", "2.5HS 锋尚版"]
 
-## // 致享
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2017/YarislzhixiangTable?module=15GSxd
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2017/YarislzhixiangTable_new/js/data.js
+# // 致享
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2017/YarislzhixiangTable?module=15GSxd
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2017/YarislzhixiangTable_new/js/data.js
 
 VEHICLE_ZHX_CONFIG = {
     "": {
@@ -1294,11 +1290,11 @@ VEHICLE_ZHX_CONFIG = {
     }
 }
 
-VEHICLE_ZHX_MODEL = ["1.3灵动版（MT）", "1.3E魅动版（MT）", "1.3E魅动版（CVT）", "1.5E魅动版（MT）", "1.5E魅动版（CVT）", "1.5G炫动版（MT）", "1.5G炫动版（CVT）", "1.5G炫动天窗版（CVT）", "1.5GS锐动版（CVT）"];
+VEHICLE_ZHX_MODEL = ["1.3灵动版（MT）", "1.3E魅动版（MT）", "1.3E魅动版（CVT）", "1.5E魅动版（MT）", "1.5E魅动版（CVT）", "1.5G炫动版（MT）", "1.5G炫动版（CVT）", "1.5G炫动天窗版（CVT）", "1.5GS锐动版（CVT）"]
 
-## // 致炫
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2016/NewYarisLTable?module=15rd
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2016/NewYarisLTable_new/js/data.js
+# // 致炫
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2016/NewYarisLTable?module=15rd
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2016/NewYarisLTable_new/js/data.js
 VEHICLE_ZHXUAN_CONFIG = {
     "": {
         "官方指导价": [
@@ -1407,11 +1403,11 @@ VEHICLE_ZHXUAN_CONFIG = {
     }
 }
 
-VEHICLE_ZHXUAN_MODEL = ["1.3灵动版（MT）", "1.3E魅动版（MT）", "1.3E魅动版（CVT）", "1.5E魅动版（CVT）", "1.5E劲速升级版（CVT）", "1.5G炫动版（MT）", "1.5G炫动版（CVT）", "1.5G炫动 天窗版（CVT）", "1.5G劲速天窗升级版（CVT）", "1.5GS锐动版（CVT）"];
+VEHICLE_ZHXUAN_MODEL = ["1.3灵动版（MT）", "1.3E魅动版（MT）", "1.3E魅动版（CVT）", "1.5E魅动版（CVT）", "1.5E劲速升级版（CVT）", "1.5G炫动版（MT）", "1.5G炫动版（CVT）", "1.5G炫动 天窗版（CVT）", "1.5G劲速天窗升级版（CVT）", "1.5GS锐动版（CVT）"]
 
-## // 埃尔法
-## // https://www.gac-toyota.com.cn/vehicles/alphard
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2015/NewAlphard/elmethodMinisite/js/hevmap.js
+# // 埃尔法
+# // https://www.gac-toyota.com.cn/vehicles/alphard
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2015/NewAlphard/elmethodMinisite/js/hevmap.js
 VEHICLE_ALPHA_CONFIG = {
     "": {
         "官方指导价": ["80.50万元", "85.60万元"]
@@ -1546,11 +1542,11 @@ VEHICLE_ALPHA_CONFIG = {
     }
 }
 
-VEHICLE_ALPHA_MODEL = ["2.5L 双擎豪华版", "2.5L 双擎尊贵版"];
+VEHICLE_ALPHA_MODEL = ["2.5L 双擎豪华版", "2.5L 双擎尊贵版"]
 
-## // 广汽ix4
-## // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/ix4Table
-## // https://www.gac-toyota.com.cn/minisite/campaigns/2018/ix4/models/js/hevmap.js
+# // 广汽ix4
+# // https://www.gac-toyota.com.cn/minisite/Campaigns/2018/ix4Table
+# // https://www.gac-toyota.com.cn/minisite/campaigns/2018/ix4/models/js/hevmap.js
 
 VEHICLE_GQIX4_CONFIG = {
     "": {
@@ -1645,4 +1641,4 @@ VEHICLE_GQIX4_CONFIG = {
         "行车提示音系统": ["●", "●"]
     }
 }
-VEHICLE_GQIX4_MODEL = ["领先版", "豪华版"];
+VEHICLE_GQIX4_MODEL = ["领先版", "豪华版"]

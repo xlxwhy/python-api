@@ -66,6 +66,7 @@ def analyse(tree):
     line()
     return;
 
+
 def findName(tree, type, value):
     for skey in tree.keys():
         if type == 1 and getKey(value) == getKey(skey): return True;

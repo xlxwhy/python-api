@@ -34,7 +34,7 @@ def run(cases, needReport=True, reportData=False, needTotal=False):
     total = 0
     failTotal = 0
     successTotal = 0
-    ignoreTotal=0
+    ignoreTotal = 0
     for case in cases:
         if case["ignore"]:
             case['status'] = Const.IGNORE
